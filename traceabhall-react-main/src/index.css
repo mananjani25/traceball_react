@@ -1,0 +1,2527 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 98vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Signup-section {
+    padding: 50px 140px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Signup_btn {
+    color: #0146B8;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-content {
+    width: 740px;
+    margin: auto;
+
+    padding: 30px;
+}
+
+.important {
+    color: #0146B8;
+}
+
+.main-logo {
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    color: #000;
+}
+
+
+
+.login_para {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.login_label {
+    text-align: left;
+    margin-bottom: 14px;
+    width: 72%;
+    font-size: 18px;
+}
+
+.green-dot {
+    color: #39D353;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.forgot_pass {
+    width: 85%;
+    text-align: right;
+    color: #0146B8;
+}
+
+.Add_website-form {
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.Add_website_url {
+    width: 480px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.add_website_btn {
+    padding: 15px 48px;
+    font-size: 18px;
+    background-color: #0146B8;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add_website_btn:hover {
+    background-color: #0146B8;
+}
+
+.Add_website_txt {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.link {
+    color: #0146B8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: #8F8E8E;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.login_text {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #585858;
+}
+
+.Login_form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_input {
+    width: 510px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 14px;
+}
+
+.password_input {
+    width: 510px;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 14px;
+}
+
+.login_btn {
+    padding: 14px 48px;
+    font-size: 20px;
+    background-color: #0146B8;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 24px;
+    width: 76%;
+}
+
+.login_btn:hover {
+    background-color: #0146B8;
+}
+
+.Reset_password {
+    width: 74%;
+    display: flex;
+}
+
+.checkbox {
+    width: 20px !important;
+    border-radius: 0;
+}
+
+.checkbox_sec {
+    width: 50%;
+    text-align: left;
+}
+
+.new_account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8F8E8E;
+}
+
+/* =================== dashboard Css ===================== */
+
+.dashboard_container {
+    max-width: 1600px;
+    margin: 20px auto;
+    width: 1600px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.user-profile {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    font-size: 32px;
+    color: #0146B8;
+}
+
+.language-selector span {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.add-employee-btn {
+    background-color: #0146B8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 18px;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    width: 20%;
+    max-width: 20%;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.Onboarding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.table th {
+    background-color: #f0f0f5;
+    font-weight: 500;
+    font-size: 16px;
+    color: #666E7D;
+}
+
+.options {
+    text-align: right;
+    cursor: pointer;
+}
+
+.action-buttons button {
+    margin-right: 10px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resume-btn {
+    background-color: #F0F5FF;
+    color: #0146B8;
+    padding: 10px;
+}
+
+.delete-btn {
+    background-color: transparent;
+    color: #ff4d4d;
+    border: none;
+}
+
+i.bi.bi-trash {
+    font-size: 18px;
+}
+
+.pagination {
+    text-align: right;
+    margin-top: 10px;
+    color: #555;
+}
+
+td.client_name {
+    width: 50%;
+    font-size: 15px;
+    color: #666E7D;
+}
+
+td.client_add {
+    width: 35%;
+    font-size: 15px;
+    color: #666E7D;
+}
+
+td.join_date {
+    width: 12%;
+    font-size: 15px;
+    color: #666E7D;
+}
+
+.profile_name {
+    width: 50%;
+}
+
+.profile_date {
+    width: 12%;
+    text-align: center !important;
+}
+
+.profile_perc {
+    width: 12%;
+    text-align: center !important;
+}
+
+.action-buttons {
+    width: 12%;
+    text-align: center !important;
+}
+
+.delete_icon {
+    width: 12%;
+    text-align: center !important;
+}
+
+
+@media (max-width: 820px) {
+
+    .dashboard_container,
+    .account_container {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .main-logo {
+        width: 240px;
+    }
+
+    .add-employee-btn {
+        width: 30%;
+    }
+
+    .search-bar input {
+        width: 30%;
+    }
+
+    .form-wrapper {
+        display: block !important;
+    }
+
+    .left-section {
+        width: 70% !important;
+        margin: auto !important;
+        margin-bottom: 30px !important;
+    }
+
+    .right-section {
+        width: 92% !important;
+        margin: auto;
+    }
+
+    .Document-form-group {
+        min-width: 30px !important;
+    }
+
+    .document-Selector {
+        width: 102% !important;
+    }
+}
+
+/* ================== Account Css ==================== */
+
+.account_container {
+    max-width: 1600px;
+    margin: 0 auto;
+
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.account_heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.form-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.left-section {
+    width: 30%;
+    text-align: center;
+}
+
+.profile-picture {
+    position: relative;
+}
+
+.profile-picture img {
+    width: 330px;
+    border-radius: 8px;
+}
+
+.edit-icon {
+    position: absolute;
+    top: -18px;
+    right: -15px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.Profile-edit-icon {
+    position: absolute;
+    top: -12px;
+    right: 58px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #4B4B4B;
+}
+
+.signature {
+    margin-top: 20px;
+}
+
+.signature-image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.right-section {
+    width: 70%;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #747474;
+}
+
+.tab.active {
+
+    border-bottom: 1px solid #3b37ff;
+    color: #747474;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+
+}
+
+.Document-form-group {
+    min-width: 380px;
+}
+
+.form-group.full-width {
+    flex: 100%;
+}
+
+.half-width {
+    flex: 48%;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #3D3C3C;
+}
+
+.Add_photo {
+    display: block;
+    font-size: 16px;
+    color: #000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background-color: #3b37ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* ============ ============== */
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ======================= Document Section css ========= */
+
+.Document-form-group {
+    margin-bottom: 20px;
+}
+
+.Name-feild {
+    width: 90% !important;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.tel-number {
+    width: 90% !important;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-feild {
+    width: 90% !important;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date-feild {
+    width: 50% !important;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.security_number {
+    width: 50% !important;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.phy-addres {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3D3C3C;
+}
+
+/* input[type="text"],
+      input[type="date"],
+      select {
+        width: 100%;
+        padding: 15px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      } */
+
+.document-Selector {
+    width: 100%;
+    padding: 20px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+
+.Document-number {
+    width: 92%;
+    padding: 20px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.expire_date {
+    width: 92%;
+    padding: 20px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.upload-btn,
+.save-btn {
+    padding: 20px 30px;
+    background-color: #0146B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.upload-btn:hover,
+.save-btn:hover {
+    background-color: #0146B8;
+}
+
+.document-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.upload-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.upload-container label {
+    background-color: #0146B8;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-container label:hover {
+    background-color: #0146B8;
+}
+
+.upload-container .file-icon {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+
+/* =============== Responsive CSS of Account Page =============================== */
+
+
+@media (max-width: 567px) {
+    .form-wrapper {
+        display: block;
+    }
+
+    .left-section {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .right-section {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+/* ============================ Forms Css =============================== */
+
+
+
+.table-container {
+    width: 90%;
+
+    margin: 0 auto;
+    border-radius: 8px;
+
+    padding: 20px;
+}
+
+.Form_heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.table-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+    color: #333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th.forms_head {
+    color: #4B4B4B;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody td.Form_name {
+    color: #4b4b4b;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    width: 80%;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Badge Styles */
+.badge {
+    padding: 10px;
+    text-align: center;
+    width: 88px;
+    border-radius: 6px;
+    background-color: #F0F5FF;
+    font-size: 14px;
+    display: block;
+}
+
+.badge.draft {
+    background-color: #F0F5FF;
+    color: #0146B8;
+
+}
+
+.badge.completed {
+    background-color: #F0F5FF;
+    color: #0DA702;
+}
+
+.badge.incomplete {
+    background-color: #F0F5FF;
+    color: #3D3C3C;
+}
+
+/* Button Styles */
+
+button.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    color: #D0165D;
+}
+
+button.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    color: #0146B8;
+}
+
+button.edit-btn:hover {
+    color: #4f46e5;
+}
+
+button.delete-btn:hover {
+    color: #dc2626;
+}
+
+
+/* =============================== W-4 Form Css ========================= */
+
+
+.w4-form-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+
+    border-radius: 8px;
+
+}
+
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.form-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.w4-strong {
+    font-size: 22px;
+}
+
+
+
+.header-left {
+    text-align: left;
+}
+
+.left_content {
+    border: 1px solid #000;
+    border-top: none;
+    width: 90%;
+    padding: 20px;
+    font-size: 14px;
+    border-bottom: none;
+}
+
+.header-right {
+    text-align: center;
+    border: 1px solid #000;
+    border-top: none;
+    padding: 30px;
+    font-size: 14px;
+    margin-bottom: -1px;
+    border-bottom: none;
+}
+
+.emp-certificate {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 5px;
+}
+
+.emp-subhead {
+    font-size: 14px;
+    margin: 0;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.w4-year {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.omb_number,
+.w4-year {
+    width: 100%;
+}
+
+.header-right .year {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-step-1 {
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.form-step h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.w4-step-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.checkbox-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.personal-info-heading {
+    width: 8%;
+    padding: 10px 30px;
+    border: 1px solid #000;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.w4-input {
+    width: 24%;
+}
+
+.w4-input-city {
+    width: 30%;
+}
+
+.address-section {
+    display: flex;
+    gap: 18px;
+}
+
+.address-inputs {
+    width: 80%;
+}
+
+.w4-form-feild {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #F3F5FF;
+    padding: 15px 8px;
+}
+
+.w4-street-add {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #F3F5FF;
+    padding: 15px 8px;
+}
+
+.streetinput-section {
+    width: 92%;
+}
+
+.right-box-text {
+    width: 20%;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    height: 50%;
+    margin-top: 20px;
+}
+
+.w4-input-city label,
+.streetinput-section label,
+.w4-input label {
+    font-size: 14px;
+}
+
+
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+/* Responsive Design */
+
+
+@media (max-width: 480px) {
+    .breadcrumb {
+        font-size: 12px;
+    }
+
+    .header-center h1 {
+        font-size: 18px;
+    }
+
+    .header-center p {
+        font-size: 12px;
+    }
+}
+
+
+/* ======================== Step 2 css for w4 =============== */
+
+.steps-container {
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #000;
+}
+
+.step-section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.step-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.step-section ul {
+    margin-bottom: 20px;
+}
+
+.step-section ul li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.step-section ol {
+    list-style: none;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.grid-row div {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+} */
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #747474;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.signature-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.signature-section div {
+    width: 47%;
+}
+
+
+.employers-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+    display: flex;
+}
+
+.employers-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .grid-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .signature-section {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+.step-second,
+.second-step {
+    display: flex;
+}
+
+.step-2-heading {
+    width: 8%;
+    padding: 10px 30px;
+
+}
+
+.leftside-step3 {
+    width: 8%;
+    padding: 10px 30px;
+}
+
+.other-credit-inputs {
+    display: contents;
+}
+
+.Employee-Signature label,
+.Employee-date label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.employer-grid-row label {
+    font-size: 14px;
+}
+
+
+.other-credit-inputs label {
+    width: 680px;
+    font-size: 14px;
+}
+
+.other-credit-inputs input {
+    background-color: #F3F5FF;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.dep-credit {
+    background-color: #F3F5FF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.Amount-left-section {
+    display: flex;
+}
+
+.other_credit-section {
+    width: 70%;
+    padding: 20px;
+}
+
+.second-section-3 {
+    width: 5%;
+    text-align: center;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+}
+
+.total-amount-credit {
+    width: 20%;
+    padding: 10px;
+}
+
+.other-adjustment {
+    display: flex;
+}
+
+.other-adjustment-content {
+    display: block;
+}
+
+.other-adjustment-amount input {
+    background-color: #F3F5FF;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.Signature-container {
+    display: flex;
+}
+
+.signature-rightside {
+    width: 90%;
+}
+
+.Employee-date input {
+    width: 20%;
+}
+
+.Employee-date {
+    text-align: end;
+}
+
+
+
+.employer-grid-row {
+    gap: 40px;
+    display: flex;
+}
+
+.employer-grid-row div {
+    min-width: 450px;
+}
+
+.general_instruction {
+    display: flex;
+    gap: 10px;
+}
+
+.leftside-content,
+.rightside-content {
+    width: 50%;
+}
+
+/* ==================== multiple_job_heading =========================== */
+
+
+.multiple_job_heading {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    margin: 20px 4px;
+}
+
+.job-worksheet-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.worksheet-inputs {
+    display: flex;
+}
+
+.worksheet-inputs p {
+    width: 80%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.worksheet-inputs input {
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: none;
+}
+
+.employer-grid-row input {
+    background-color: #F3F5FF;
+    border-radius: 0px;
+    border: none;
+}
+
+input#employee-signature {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.Employee-date input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+.act-and-paperwork {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    padding: 30px 10px;
+}
+
+/* =========== table css ========== */
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+} */
+/* .section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  th, td {
+    font-size: 12px;
+    padding: 8px;
+  }
+} */
+
+/* ================== I-9 Form ===================== */
+
+.i-9form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.development-dept {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.estimated-text {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.exemption-1,
+.exemption-2 {
+    width: 80% !important;
+}
+
+.i9-personal-info {
+    font-size: 20px;
+    padding: 12px 10px;
+    border: 1px solid #000;
+    border-bottom: none;
+    width: 95%;
+}
+
+.Allowance-certificate p {
+    padding: 10px 0px;
+}
+
+.clear-form-btn {
+    padding: 25px 40px;
+    height: 20px;
+    line-height: 0;
+    background-color: #AFAFAF;
+    border: 3px solid #878787;
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.certificate-heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.i9-input {
+    min-width: 25%;
+}
+
+.i9-input label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cerificate-address {
+    display: flex;
+    width: 100%;
+
+}
+
+.cerificate-address label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cerificate-address .adresss {
+    width: 60%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.adresss input {
+    width: 90%;
+    margin-bottom: 20px;
+    background-color: #F3F5FF;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.cerificate-address .zip-code-section {
+    display: flex;
+}
+
+.zip-code-section div {
+    width: 31%;
+}
+
+/* ================== */
+
+.filing-status {
+    width: 33%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-left: none;
+}
+
+.filing-status label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.filing-status label p {
+    width: 100%;
+}
+
+.filing-status input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.filing-status input[type="checkbox"]:checked {
+    background-color: #000;
+}
+
+.filing-status span {
+    font-size: 14px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+/* ==================== i9 second section =========== */
+
+.form-section-second {
+    max-width: 100%;
+    margin: 20px 4px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 40px;
+}
+
+.form-section-second p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.form-section-second label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.form-row-second {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row-second input[type="text"],
+.form-row-second input[type="checkbox"] {
+    margin-left: 15px;
+}
+
+.form-row-second input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f8f8ff;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.signature-row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.signature-line {
+    flex-grow: 1;
+    border-bottom: 1px dashed #000;
+    margin: 0 15px;
+    width: 60%;
+}
+
+.date-field {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background-color: #f8f8ff;
+    margin-left: 8px;
+}
+
+.checkbox-label input {
+    height: 20px;
+}
+
+/* ====================== i9 third section ================= */
+
+.penalties-text {
+    margin-bottom: 30px;
+}
+
+.payroll-tax-container {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.payroll-tax-container {
+    display: flex;
+}
+
+.employer-section,
+.account-number {
+    width: 48%;
+    margin-right: 20px;
+}
+
+.section-address {
+    background-color: #F3F5FF;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.employer-section {
+    border-right: 1px solid #000;
+}
+
+.i-9-instruction {
+    padding: 30px 4px;
+}
+
+.ftp-form {
+    padding: 20px 4px;
+    border: 1px solid #000;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.ftp-form-heading {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.worksheet-inputs input {
+    background-color: #F3F5FF;
+    margin-left: 4px;
+}
+
+/* ============= Worksheet c css ========*/
+
+.worksheet-c {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.taxable-income,
+.computed-tax {
+    width: 40%;
+    margin: auto;
+}
+
+.worksheet-c-heading {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.table-body {
+    border: 1px solid #000;
+}
+
+.w4-body-row td,
+.w4-row th {
+    border: 1px solid #000;
+}
+
+.w4-section-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.i9-body-row td,
+.i9-head th {
+    border: 1px solid #000;
+}
+
+.grid-row-1 {
+    width: 95.5%;
+    display: flex;
+}
+
+.personal-info-heading h2 {
+    font-size: 20px;
+}
+
+.next-save-button {
+    text-align: right;
+}
+
+/* ===================== DE-4 CSS ================== */
+
+.de-4_container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.logo-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-heading {
+    font-size: 18px;
+    text-align: center;
+}
+
+.uscis-content {
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-heading p {
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.main-heading p strong {
+    font-weight: 600;
+}
+
+.de-4_section1 .section-1 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #E5E5E5;
+}
+
+.de-4_section1 .section-1 strong {
+    font-weight: 600;
+}
+
+.section1-form {
+    display: block;
+
+}
+
+.form-name,
+.form-address,
+.form-contact {
+    display: flex;
+}
+
+.form-name input,
+.form-address input,
+.form-contact input {
+    padding: 20px;
+    border-radius: 0px;
+    margin: 4px;
+}
+
+
+/* ================= Responsive css  1024px ============= */
+
+@media(max-width: 1024px) and (min-width: 767px) {
+
+    .dashboard_container,
+    .account_container {
+        width: 90%;
+    }
+
+    .form-wrapper {
+        display: block;
+    }
+
+    .right-section {
+        width: 90%;
+    }
+
+    .left-section {
+        width: 60%;
+        margin: 40px auto;
+    }
+
+    #personal .save-btn {
+        margin-left: -20px;
+    }
+
+    .tab {
+        font-size: 20px;
+    }
+
+    .tab-content label {
+        font-size: 20px;
+    }
+
+    .tab-content input {
+        font-size: 20px;
+    }
+
+    .upload-container {
+        display: block;
+        width: 30%;
+    }
+
+    .Document-form-group {
+        width: 70%;
+        min-width: 20px;
+    }
+
+    #documents form .document-section {
+        width: 98%;
+    }
+
+    .upload-container .file-icon {
+        font-size: 60px;
+    }
+
+    .document-Selector {
+        font-size: 20px;
+    }
+
+    .Profile-edit-icon {
+        right: 95px;
+    }
+
+    .form-header {
+        flex-wrap: nowrap;
+    }
+
+    .emp-certificate {
+        font-size: 26px;
+    }
+
+    .emp-subhead {
+        width: 90%;
+        margin: auto;
+    }
+
+    .personal-info-heading,
+    .step-2-heading,
+    .leftside-step3 {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .form-step-1,
+    .step-second,
+    .second-step,
+    .Signature-container,
+    .employer-grid-row,
+    .employers-section,
+    .other-adjustment {
+        display: block;
+    }
+
+    .Employee-date input {
+        width: 60%;
+    }
+
+    .w4-form-container input {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .w4-body-row td {
+        padding: 6px;
+    }
+
+    .i9-input label {
+        font-size: 14px;
+    }
+
+    .personal-info-heading {
+        border: none;
+    }
+
+    .right-box-text {
+        margin-left: 15px;
+    }
+
+}
+
+/* =================== Responsive css 766px =========== */
+
+@media (max-width: 768px) and (min-width: 568px) {
+    .form-header {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .step-grid {
+        gap: 10px;
+    }
+
+    .grid-row {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .emp-certificate {
+        font-size: 20px;
+    }
+
+    .left_content {
+        padding: 12px;
+    }
+
+    .header-left {
+        width: 25%;
+    }
+
+    .header-right {
+        padding: 12px;
+        height: 154px;
+    }
+
+    .w4-input {
+        width: 97%;
+    }
+
+    .w4-input-city {
+        width: 92%;
+    }
+
+    .address-inputs {
+        width: 60%;
+    }
+
+    .right-box-text {
+        width: 30%;
+    }
+
+    .Amount-left-section {
+        display: block;
+    }
+
+    .total-amount-credit {
+        width: 70%;
+    }
+
+    .second-section-3 {
+        display: none;
+    }
+
+    .w4-body-row td {
+        padding: 3px;
+    }
+
+    .leftside-step3 {
+        padding: 0px;
+    }
+
+    .grid-row-1 {
+        width: 97%;
+    }
+
+    .form-row-second input[type="text"] {
+        width: 120px;
+        padding: 14px;
+    }
+
+    .exemption-1,
+    .exemption-2 {
+        width: 70% !important;
+    }
+
+    .date-field {
+        padding: 12px;
+    }
+
+    .i9-input label {
+        font-size: 14px;
+    }
+
+
+}
+
+
+/* ================= Responsive css  567px ============= */
+
+@media (max-width: 567px) {
+    .Signup-section {
+        width: 90%;
+        padding: 50px 30px;
+    }
+
+    .main-content {
+        width: 90%;
+    }
+
+    .login_input,
+    .password_input {
+        width: 80%;
+    }
+
+    #personal .form-group {
+        flex: auto;
+    }
+
+    .security_number,
+    .date-feild {
+        width: 90% !important;
+    }
+
+    .main-logo {
+        width: 120px;
+        margin-bottom: 0px;
+    }
+
+    .profile-picture img {
+        width: 90%;
+    }
+
+    #personal .save-btn {
+        width: 50%;
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+
+    #documents form {
+        display: block;
+    }
+
+    .document-section {
+        display: block;
+    }
+
+    .upload-container {
+        gap: 40px;
+    }
+
+    .upload-container label {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .upload-container .file-icon {
+        font-size: 34px;
+    }
+
+    #documents .save-btn {
+        width: 50%;
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+
+
+    /* ============================  */
+
+    .form-header {
+        flex-wrap: wrap;
+    }
+
+    .header-left {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 10px;
+    }
+
+    .left_content {
+        border: none;
+    }
+
+    .header-center {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #000;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .header-right {
+        width: 100%;
+        text-align: center;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .form-header {
+        border: none;
+    }
+
+    .emp-certificate {
+        font-size: 26px;
+    }
+
+    .emp-subhead {
+        width: 90%;
+        margin: auto;
+    }
+
+    .personal-info-heading,
+    .step-2-heading,
+    .leftside-step3 {
+        width: 90%;
+    }
+
+    .form-step-1,
+    .step-second,
+    .second-step,
+    .Signature-container,
+    .employer-grid-row,
+    .employers-section,
+    .other-adjustment {
+        display: block;
+    }
+
+    .Employee-date input {
+        width: 40%;
+    }
+
+    .w4-form-container input {
+        padding: 12px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .w4-body-row td {
+        padding: 6px;
+    }
+
+    .w4-input {
+        width: 90%;
+    }
+
+    .address-section {
+        display: block;
+    }
+
+    .address-inputs,
+    .right-box-text,
+    .w4-input-city {
+        width: 90%;
+    }
+
+    .Amount-left-section {
+        display: block;
+    }
+
+    .other-credit-inputs label {
+        width: 90%;
+    }
+
+    .second-section-3 {
+        display: none;
+    }
+
+    .total-amount-credit {
+        width: 90%;
+    }
+
+    .signature-section {
+        flex-direction: column;
+    }
+
+    .signature-section div {
+        width: 100%;
+    }
+
+    .Employee-date {
+        text-align: start;
+    }
+
+    .employer-grid-row div {
+        min-width: 180px;
+        width: 90%;
+    }
+
+    .general_instruction {
+        display: block;
+    }
+
+    .leftside-content,
+    .rightside-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .worksheet-inputs {
+        display: block;
+    }
+
+    .worksheet-inputs input {
+        width: 80%;
+    }
+
+    .w4-table-section {
+        width: 90%;
+        margin: auto;
+        overflow: auto;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
+
+    .upload-btn,
+    .save-btn {
+        width: 60%;
+        padding: 15px 24px;
+    }
+
+    .personal-info-heading,
+    .step-2-heading,
+    .leftside-step3 {
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    .other_credit-section {
+        padding: 20px 0px;
+    }
+
+    .Employee-date input {
+        width: 100%;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .w4-step-grid {
+        padding: 10px 0px;
+    }
+
+    .personal-info-heading {
+        border: none;
+
+    }
+
+    .personal-info-heading h2 {
+        font-size: 18px;
+    }
+
+    .leftside-content h3,
+    .rightside-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    tbody td,
+    .right-box-text p,
+    .leftside-content p,
+    .rightside-content p,
+    .multiple-job-content p,
+    .worksheet-inputs p {
+        font-size: 14px;
+    }
+
+    .multiple_job_heading,
+    .w4-section-title {
+        font-size: 18px;
+    }
+
+    /* ======================= de-4 =========== */
+
+    .cerificate-address {
+        display: block;
+    }
+
+    .EDD-mainlogo {
+        width: 120px;
+    }
+
+    .clear-form-btn {
+        font-size: 18px;
+        padding: 16px 10px;
+    }
+
+    .certificate-heading {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .i9-input {
+        min-width: 150px !important;
+    }
+
+    .grid-row-1 {
+        width: 90%;
+        display: block;
+    }
+
+    .cerificate-address .adresss {
+        width: 90%;
+    }
+
+    .filing-status {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form-row-second,
+    .checkbox-label,
+    .payroll-tax-container {
+        display: block;
+    }
+
+    .signature-row {
+        padding: 10px;
+        display: block;
+    }
+
+    .signature-line {
+        margin: 10px 0px;
+    }
+
+    .employer-section,
+    .account-number {
+        width: 100%;
+
+    }
+
+    .employer-section {
+        border-right: none;
+        border-bottom: 1px solid #000;
+        margin-bottom: 10px;
+    }
+
+    .worksheet-c {
+        display: block;
+    }
+
+    .taxable-income,
+    .computed-tax {
+        width: 100%;
+        margin: auto;
+    }
+
+    table.i9-table {
+        margin-bottom: 20px;
+    }
+
+    .Allowance-certificate p {
+        font-size: 14px;
+    }
+
+    .i9-input label {
+        font-size: 14px;
+    }
+
+    .form-row-second input[type="text"] {
+        margin: 8px 0px;
+
+    }
+
+    .ftp-form-heading {
+        font-size: 18px;
+    }
+
+    .action-buttons {
+        display: none;
+    }
+
+    .dashboard_container td,
+    .dashboard_container th {
+        padding: 8px;
+    }
+
+}
+
+
+.exemption-checkbox {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.exemption-checkbox input {
+    font-size: 18px;
+    width: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.upload-container {
+    position: relative;
+}
+
+.file-icon {
+    margin-top: 5px;
+}
+
+.remove-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.file-name {
+    position: relative;
+    cursor: pointer;
+}
+
+.file-name:hover::after {
+    content: attr(title);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+    transform: translateY(5px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-container {
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.custom-dropdown {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-dropdown:hover {
+    border-color: #888;
+}
+
+.custom-dropdown:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+.custom-dropdown option {
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    padding: 5px;
+}
